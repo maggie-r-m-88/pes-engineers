@@ -129,6 +129,16 @@ background-color: #fbb43d;
   font-weight: 400;
 }
 
+/* Blog Post single */
+.blog-inner.blog-single .entry-thumbnail:hover a.entry-thumbnail_overlay:before{
+  background-color: transparent;
+}
+.blog-inner.blog-single .entry-thumbnail_overlay{
+  cursor: pointer;
+}
+
+/* Projects Landing page */
+
 .market-icons .darna-icon-box.style2 .ibox-icon {
   background-color: #FFF;
   border: 0px solid transparent;

@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function(){
 
 /* Prevent click on news single pretty photo / lightbox */
 $(document).ready(function() {
-	$('.single-post .entry-thumbnail_overlay').on('click', function (e) {
+	$('.blog-inner .entry-thumbnail_overlay').on('click', function (e) {
     	event.preventDefault();
   	});
 });
